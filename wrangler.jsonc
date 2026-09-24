@@ -109,18 +109,18 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "4abd52f3f2c549ac83cc2cb4ceec8620",
+      "id": "d7186a379f724c2e9ef83b4d7a6923a3",
     },
     {
       "binding": "OAUTH_KV",
-      "id": "bd1759494309474a9b423b029967b0db",
+      "id": "2840f52f36024953b4fdc4943768d1ac",
     },
   ],
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "open-seo",
-      "database_id": "37bee90a-e1aa-404f-b01e-b0d1d479bda1",
+      "database_name": "open-seo-parthk",
+      "database_id": "6d6f875d-951c-4c11-973e-16291445725a",
       "migrations_dir": "drizzle",
     },
   ],
@@ -142,7 +142,7 @@
   // ],
   "r2_buckets": [
     {
-      "bucket_name": "open-seo",
+      "bucket_name": "open-seo-parthk",
       "binding": "R2",
     },
   ],
