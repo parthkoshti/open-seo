@@ -4,6 +4,9 @@
   "main": "src/server.ts",
   "compatibility_date": "2025-09-02",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  // Credentials are managed in the Cloudflare Dashboard. Preserve them when
+  // deploying this configuration rather than committing them to this repo.
+  "keep_vars": true,
   "observability": {
     "enabled": true,
     // Spans are billed as observability events (free tier 200k/day); add a
